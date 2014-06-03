@@ -1,2 +1,2 @@
 web: node web.js
-fetch: node worker.js
+fetch: node fetch.js

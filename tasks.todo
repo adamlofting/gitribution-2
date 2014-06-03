@@ -4,6 +4,15 @@ Testing:
  ✔ Tidy up existing lib files with jshint @done (14-06-03 20:34)
  ☐ Move all files into lib
  ☐ More grunt/jshint tidy up
+ ☐ Can't afford to reload whole repos
+ ☐ Needs to keep track of how much has been loaded to start and stop
+ ☐ Work from a list of org names
+ ☐ Load all repos within those orgs
+ ☐ Test initially against https://github.com/mozilla-appmaker/
+
+Querying this data:
+ ☐ List of staff username/emails
+ ☐ Mapping repos to teams
 
 ＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿
 Archive:
