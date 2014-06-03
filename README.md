@@ -1,13 +1,13 @@
 gitribution
 ===========
 
-Extracts data from the Github API and allows it to be queried for particular contribution activities
+Extracts data from the Github API, stores it in MySQL and allows it to be queried for particular contribution activities
 
 Looks at the people (github logins) involved in:
 * commits
 * issues
 
-This app uses membership of the github organisations to flag staff, plus a list of extra github logins in to_track.js. This is not 100% accurate, but a pretty good indicator of who is staff.
+# Contributing
 
 ## Prerequisites:
 
