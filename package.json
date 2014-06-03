@@ -1,6 +1,6 @@
 {
-  "name": "gitribution",
-  "version": "0.0.0",
+  "name": "gitribution-2",
+  "version": "0.0.1",
   "description": "App that takes data from github API and reformats for queries related to contribution",
   "engines": {
     "node": "0.10.x"
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/adamlofting/gitribution.git"
+    "url": "https://github.com/adamlofting/gitribution-2.git"
   },
   "keywords": [
     "github",
@@ -21,9 +21,9 @@
   "author": "Adam Lofting",
   "license": "Mozilla Public License, version 2.0",
   "bugs": {
-    "url": "https://github.com/adamlofting/gitribution/issues"
+    "url": "https://github.com/adamlofting/gitribution-2/issues"
   },
-  "homepage": "https://github.com/adamlofting/gitribution",
+  "homepage": "https://github.com/adamlofting/gitribution-2",
   "dependencies": {
     "express": "~3.4.8",
     "logfmt": "~0.21.0",
@@ -31,5 +31,10 @@
     "newrelic": "~1.6.0",
     "async": "~0.2.10",
     "github": "~0.1.14"
+  },
+  "devDependencies": {
+    "grunt-jsbeautifier": "~0.2.6",
+    "grunt": "~0.4.4",
+    "grunt-contrib-jshint": "~0.9.2"
   }
 }

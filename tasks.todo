@@ -1,6 +1,9 @@
 
 Testing:
- ☐ Would be good to learn some practices around unit testing
+ ✔ Setup grunt @done (14-06-03 20:33)
+ ✔ Tidy up existing lib files with jshint @done (14-06-03 20:34)
+ ☐ Move all files into lib
+ ☐ More grunt/jshint tidy up
 
 ＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿
 Archive:
