@@ -4,6 +4,8 @@ Testing:
  ✔ Tidy up existing lib files with jshint @done (14-06-03 20:34)
  ✔ Move all files into lib @done (14-06-03 21:25)
  ✔ More grunt/jshint tidy up @done (14-06-03 21:25)
+ ☐ tidy up github_logic
+ ☐ work on query by date functions
  ☐ Can't afford to reload whole repos
  ☐ Needs to keep track of how much has been loaded to start and stop
  ☐ Work from a list of org names
