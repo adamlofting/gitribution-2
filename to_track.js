@@ -1,1 +1,1 @@
-exports.orgs = ['mozilla-appmaker'];
+exports.orgs = ['mozilla-appmaker', 'mozilla', 'mozilla-b2g'];
