@@ -1,16 +1,8 @@
 
 Testing:
- ✔ Setup grunt @done (14-06-03 20:33)
- ✔ Tidy up existing lib files with jshint @done (14-06-03 20:34)
- ✔ Move all files into lib @done (14-06-03 21:25)
- ✔ More grunt/jshint tidy up @done (14-06-03 21:25)
- ☐ tidy up github_logic
- ☐ work on query by date functions
- ☐ Can't afford to reload whole repos
- ☐ Needs to keep track of how much has been loaded to start and stop
- ☐ Work from a list of org names
- ☐ Load all repos within those orgs
- ☐ Test initially against https://github.com/mozilla-appmaker/
+ ☐ remove github_logic
+ ☐ switch 'github' npm dependency back to the main repo once my PR is merged
+ ☐ If a repo has records and we ping it again, we should also check for commits newer than what we have
 
 Querying this data:
  ☐ List of staff username/emails
@@ -18,6 +10,16 @@ Querying this data:
 
 ＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿
 Archive:
+ ✔ Setup grunt @done (14-06-03 20:33) @project(Testing)
+ ✔ Tidy up existing lib files with jshint @done (14-06-03 20:34) @project(Testing)
+ ✔ Move all files into lib @done (14-06-03 21:25) @project(Testing)
+ ✔ More grunt/jshint tidy up @done (14-06-03 21:25) @project(Testing)
+ ✔ work on query by date functions @done (14-06-05 14:40) @project(Testing)
+ ✔ Can't afford to reload whole repos @done (14-06-05 14:40) @project(Testing)
+ ✔ Needs to keep track of how much has been loaded to start and stop @done (14-06-05 14:40) @project(Testing)
+ ✔ Work from a list of org names @done (14-06-05 14:40) @project(Testing)
+ ✔ Load all repos within those orgs @done (14-06-05 14:41) @project(Testing)
+ ✔ Test initially against https://github.com/mozilla-appmaker/ @done (14-06-05 14:41) @project(Testing)
  ✔ Update live DB @done (14-03-06 16:12) @project(Documentation)
  ✔ Setup a clear all and re-build option (move into a seperate node file to run locally) @done (14-03-06 16:12) @project(Priority)
  ✔ Link index to github documentation @done (14-03-06 16:12) @project(Other)
