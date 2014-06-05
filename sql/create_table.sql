@@ -5,5 +5,5 @@ CREATE TABLE `activities` (
   `github_username` varchar(255) DEFAULT NULL,
   `github_public_email` varchar(255) DEFAULT NULL,
   `action_type` varchar(255) DEFAULT NULL,
-  UNIQUE KEY `happened_on` (`happened_on`,`github_organization`,`github_repository`,`github_username`,`action_type`)
+  UNIQUE KEY `happened_on` (`happened_on`,`github_organization`,`github_repository`,`action_type`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;

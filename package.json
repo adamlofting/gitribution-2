@@ -30,7 +30,7 @@
     "mysql": "~2.1.0",
     "newrelic": "~1.6.0",
     "async": "~0.2.10",
-    "github": "~0.1.14"
+    "github": "git://github.com/adamlofting/node-github.git#add-param-until"
   },
   "devDependencies": {
     "grunt-jsbeautifier": "~0.2.6",
