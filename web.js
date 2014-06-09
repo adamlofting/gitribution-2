@@ -25,7 +25,8 @@ app.get('/api/2014/:team', function (req, res) {
     });
   } else {
     res.json({
-      error: 'invalid team name'
+      error: 'invalid team name',
+      try_one_of_these_instead: util.validTeamNames()
     });
   }
 });

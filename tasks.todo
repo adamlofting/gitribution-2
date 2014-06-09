@@ -4,9 +4,9 @@ Testing:
  ☐ If a repo has records and we ping it again, we should also check for commits newer than what we have
 
 Querying this data:
- ☐ Expose a list of teams via the tracking sheet (for drop-down on dashboard)
+ ✔ Expose a list of teams via the tracking sheet (for drop-down on dashboard) @done (14-06-09 18:50)
    ☐ List of unclaimed Repos
-   ☐ Also show this on API error (valid teams or request your team is added)
+   ✔ Also show this on API error (valid teams or request your team is added) @done (14-06-09 18:50)
  ☐ Add a 'totals' view for beside the graph
  ☐ Move to mozilla org
  ☐ List of staff username/emails
