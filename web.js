@@ -35,6 +35,18 @@ app.get('/api/validteams', function (req, res) {
   res.json(util.validTeamNames());
 });
 
+app.get('/unclaimedrepos', function (req, res) {
+  data.getAllRepos(function (err, result) {
+    var unclaimed = util.filterOutClaimedRepos(result);
+    var list = '<ul>';
+    for (var i = unclaimed.length - 1; i >= 0; i--) {
+      list += '<li><a href="http://github.com/' + unclaimed[i] + '" target="_blank">' + unclaimed[i] + '</a> (<a href="http://github.com/' + unclaimed[i] + '" target="_blank">who</a>?)</li>';
+    }
+    list += '</ul>';
+    res.send(list);
+  });
+});
+
 var port = Number(process.env.PORT || 5000);
 app.listen(port, function () {
   console.log("Listening on " + port);

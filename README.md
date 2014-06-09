@@ -13,6 +13,9 @@ Looks at the people (github logins) involved in:
 * `/api/2014/:teamname`
 * `/api/validteams`
 
+# Other important pages
+
+* `/unclaimedrepos`
 
 # Contributing
 
