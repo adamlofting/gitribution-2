@@ -30,6 +30,10 @@ app.get('/api/2014/:team', function (req, res) {
   }
 });
 
+app.get('/api/validteams', function (req, res) {
+  res.json(util.validTeamNames());
+});
+
 var port = Number(process.env.PORT || 5000);
 app.listen(port, function () {
   console.log("Listening on " + port);

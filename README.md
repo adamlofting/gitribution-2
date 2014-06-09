@@ -5,7 +5,14 @@ Extracts data from the Github API, stores it in MySQL and allows it to be querie
 
 Looks at the people (github logins) involved in:
 * commits
-* issues
+
+
+# API endpoints
+
+* `/api/2014/all`
+* `/api/2014/:teamname`
+* `/api/validteams`
+
 
 # Contributing
 
