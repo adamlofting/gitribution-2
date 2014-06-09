@@ -10,7 +10,7 @@ app.get('/', function (req, res) {
   res.send("You're probably looking for /api or for more info about this app see https://github.com/adamlofting/gitribution-2");
 });
 
-app.get('/api/total/2014', function (req, res) {
+app.get('/api/2014/total', function (req, res) {
   data.get2014TotalActive(function gotCounts(err, result) {
     res.json(result);
   });

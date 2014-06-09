@@ -4,13 +4,13 @@ Testing:
  ☐ If a repo has records and we ping it again, we should also check for commits newer than what we have
 
 Querying this data:
- ☐ Mapping repos to teams
- ☐ Expose a list of teams via the tracking sheet
- ☐ Query my moco/mofo by joining up the team repos
- ☐ Move to mozilla org
+ ✔ Mapping repos to teams @done (14-06-09 14:38)
  ☐ Output new as well as active
  ☐ Output data in a format for demo
  ☐ Caching of queries
+ ☐ Expose a list of teams via the tracking sheet (for drop-down on dashboard)
+ ☐ Query by moco/mofo by joining up the team repos
+ ☐ Move to mozilla org
  ☐ List of staff username/emails
 
 
