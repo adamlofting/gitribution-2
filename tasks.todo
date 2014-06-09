@@ -4,29 +4,30 @@ Testing:
  ☐ If a repo has records and we ping it again, we should also check for commits newer than what we have
 
 Querying this data:
- ✔ Mapping repos to teams @done (14-06-09 14:38)
- ☐ Output new as well as active
- ☐ Output data in a format for demo
- ☐ Caching of queries
  ☐ Expose a list of teams via the tracking sheet (for drop-down on dashboard)
  ☐ Query by moco/mofo by joining up the team repos
+ ☐ Add a 'totals' view for beside the graph
  ☐ Move to mozilla org
  ☐ List of staff username/emails
 
 
 ＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿
 Archive:
+ ✔ Output new as well as active @done (14-06-09 15:18) @project(Querying this data)
+ ✔ Output data in a format for demo @done (14-06-09 15:18) @project(Querying this data)
+ ✔ Caching of queries @done (14-06-09 15:18) @project(Querying this data)
+ ✔ Mapping repos to teams @done (14-06-09 14:38) @project(Querying this data)
  ✔ remove github_logic @done (14-06-09 07:37) @project(Testing)
- ✔ Setup grunt @done (14-06-03 20:33) @project(Testing)
- ✔ Tidy up existing lib files with jshint @done (14-06-03 20:34) @project(Testing)
+ ✔ Test initially against https://github.com/mozilla-appmaker/ @done (14-06-05 14:41) @project(Testing)
+ ✔ Load all repos within those orgs @done (14-06-05 14:41) @project(Testing)
+ ✔ work on query by date functions @done (14-06-05 14:40) @project(Testing)
+ ✔ Work from a list of org names @done (14-06-05 14:40) @project(Testing)
+ ✔ Needs to keep track of how much has been loaded to start and stop @done (14-06-05 14:40) @project(Testing)
+ ✔ Can't afford to reload whole repos @done (14-06-05 14:40) @project(Testing)
  ✔ Move all files into lib @done (14-06-03 21:25) @project(Testing)
  ✔ More grunt/jshint tidy up @done (14-06-03 21:25) @project(Testing)
- ✔ work on query by date functions @done (14-06-05 14:40) @project(Testing)
- ✔ Can't afford to reload whole repos @done (14-06-05 14:40) @project(Testing)
- ✔ Needs to keep track of how much has been loaded to start and stop @done (14-06-05 14:40) @project(Testing)
- ✔ Work from a list of org names @done (14-06-05 14:40) @project(Testing)
- ✔ Load all repos within those orgs @done (14-06-05 14:41) @project(Testing)
- ✔ Test initially against https://github.com/mozilla-appmaker/ @done (14-06-05 14:41) @project(Testing)
+ ✔ Tidy up existing lib files with jshint @done (14-06-03 20:34) @project(Testing)
+ ✔ Setup grunt @done (14-06-03 20:33) @project(Testing)
  ✔ Update live DB @done (14-03-06 16:12) @project(Documentation)
  ✔ Setup a clear all and re-build option (move into a seperate node file to run locally) @done (14-03-06 16:12) @project(Priority)
  ✔ Link index to github documentation @done (14-03-06 16:12) @project(Other)
