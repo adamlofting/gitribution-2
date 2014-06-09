@@ -1,6 +1,5 @@
 
 Testing:
- ☐ remove github_logic
  ☐ switch 'github' npm dependency back to the main repo once my PR is merged
  ☐ If a repo has records and we ping it again, we should also check for commits newer than what we have
 
@@ -10,6 +9,7 @@ Querying this data:
 
 ＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿
 Archive:
+ ✔ remove github_logic @done (14-06-09 07:37) @project(Testing)
  ✔ Setup grunt @done (14-06-03 20:33) @project(Testing)
  ✔ Tidy up existing lib files with jshint @done (14-06-03 20:34) @project(Testing)
  ✔ Move all files into lib @done (14-06-03 21:25) @project(Testing)
