@@ -8,17 +8,16 @@ var util = require("./lib/util");
 var app = express();
 
 app.get('/', function (req, res) {
-  res.send("You're probably looking for /api or for more info about this app see https://github.com/adamlofting/gitribution-2");
+  res.send("You're probably looking for /api/2014/all or /api/2014/:teamname - or for more info about this app see https://github.com/adamlofting/gitribution-2");
 });
 
-app.get('/api/2014/total', function (req, res) {
+app.get('/api/2014/all', function (req, res) {
   data.get2014TotalActive(null, function gotCounts(err, result) {
     res.json(result);
   });
 });
 
 app.get('/api/2014/:team', function (req, res) {
-
   var team = req.params.team;
   if (util.isValidTeamName(team)) {
     data.get2014TotalActive(team, function gotCounts(err, result) {

@@ -5,9 +5,10 @@ Testing:
 
 Querying this data:
  ✔ Continue working on team specific queries in data.js @done (14-06-09 17:33)
- ☐ Query by moco/mofo by joining up the team repos
+ ✔ Query by moco/mofo by joining up the team repos @done (14-06-09 18:44)
  ☐ Expose a list of teams via the tracking sheet (for drop-down on dashboard)
-   ☐ Also show this on API error
+   ☐ List of unclaimed Repos
+   ☐ Also show this on API error (valid teams or request your team is added)
  ☐ Add a 'totals' view for beside the graph
  ☐ Move to mozilla org
  ☐ List of staff username/emails
