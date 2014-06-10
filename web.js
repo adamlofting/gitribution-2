@@ -11,6 +11,13 @@ app.get('/', function (req, res) {
   res.send("You're probably looking for /api/2014/all or /api/2014/:teamname - or for more info about this app see https://github.com/adamlofting/gitribution-2");
 });
 
+// allow CORS so this can be graphed elsewhere in JS
+app.all('*', function(req, res, next) {
+  res.header("Access-Control-Allow-Origin", "*");
+  res.header("Access-Control-Allow-Headers", "X-Requested-With");
+  next();
+});
+
 app.get('/api/2014/all', function (req, res) {
   data.get2014TotalActive(null, function gotCounts(err, result) {
     res.json(result);
