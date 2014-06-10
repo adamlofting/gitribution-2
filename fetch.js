@@ -5,6 +5,7 @@ var util = require('./lib/util');
 
 async.waterfall([
     function saveSummaryForAll (callback){
+      console.log('saveSummaryForAll');
       // get the total combined numbers
       data.update2014TotalActive(null, function updatedAll (err) {
         callback(null);
