@@ -4,7 +4,9 @@ Testing:
  ☐ If a repo has records and we ping it again, we should also check for commits newer than what we have
 
 Querying this data:
-   ✔ List of unclaimed Repos @done (14-06-09 20:44)
+ ☐ Periodically run the query, save the results to the DB for all teams, load this
+   ☐ Load this instead
+   ☐ Take caching off the query, and onto the lookup
  ☐ Add a 'totals' view for beside the graph
  ☐ Move to mozilla org
  ☐ List of staff username/emails
@@ -12,6 +14,7 @@ Querying this data:
 
 ＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿
 Archive:
+ ✔ List of unclaimed Repos @done (14-06-09 20:44) @project(Querying this data)
  ✔ Expose a list of teams via the tracking sheet (for drop-down on dashboard) @done (14-06-09 18:50) @project(Querying this data)
  ✔ Also show this on API error (valid teams or request your team is added) @done (14-06-09 18:50) @project(Querying this data)
  ✔ Query by moco/mofo by joining up the team repos @done (14-06-09 18:44) @project(Querying this data)
