@@ -124,5 +124,11 @@ exports.teamsRepos = [
                     'mozilla-services/svcops-oompaloompas',
                     'mozilla-b2g/gaia',
                     'mozilla/gecko-dev']
+  },
+  {
+    'moco_or_mofo': 'moco',
+    'team_name':    'coding',
+    'repos': [      'mozilla-b2g/gaia',
+                    'mozilla/gecko-dev']
   }
 ];
