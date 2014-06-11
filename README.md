@@ -1,21 +1,12 @@
-gitribution
-===========
+Gitribution 2
+=============
 
-Extracts data from the Github API, stores it in MySQL and allows it to be queried for particular contribution activities
+The goal of Gitribution 2 is to extract data from our repo commit history in a format that can be used by Mozilla's Project Baloo. We currently have over 1,000 repos on Github.
+
+We are using this custom tool to query the API, rather than githubarchive.org because we want to capture commit history for repos that start elsewhere, but then get moved into the various Mozilla organization accounts - this is a common workflow for repos, and valuable contribution activity would be missed if we only tracked the push and pull events.
 
 Looks at the people (github logins) involved in:
 * commits
-
-
-# API endpoints
-
-* `/api/2014/all`
-* `/api/2014/:teamname`
-* `/api/validteams`
-
-# Other important pages
-
-* `/unclaimedrepos`
 
 # Contributing
 
@@ -25,7 +16,7 @@ Looks at the people (github logins) involved in:
 * heroku toolbelt
 * mysql db
 
-## Setup an activities table in mysql
+## Setup an activities and summary table in mysql
 See script in sql/create_table.sql
 
 ## Environment Config
@@ -41,13 +32,9 @@ to_track.js
 ## Running the app:
 
 ```
-foreman start
+foreman start fetch
 ```
-
-## Clear and rebuild the database
-
-Run this script to clear and rebuild the database (useful if we change repo names or move around org accounts etc...)
-
+or
 ```
-foreman run node reset
+heroku start fetch
 ```
