@@ -4,6 +4,8 @@ Testing:
  ☐ If a repo has records and we ping it again, we should also check for commits newer than what we have
 
 Querying this data:
+ ✔ Separate out the summary and raw data fetches. @done (14-06-11 15:05)
+ ☐ Turn gitribution into a scraper that formats info for Baloo.
  ☐ Fetch only needs to get the numbers up to current when iterating through the weekly dates
  ☐ Add a 'totals' view for beside the graph (can just use the current total for now)
  ☐ Move to mozilla org
