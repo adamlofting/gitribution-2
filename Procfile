@@ -1,2 +1,2 @@
 web: node web.js
-fetch: node fetch_raw.js
+fetch: node fetch_from_gh.js
