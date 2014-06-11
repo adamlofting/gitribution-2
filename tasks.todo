@@ -4,8 +4,10 @@ Testing:
  ☐ If a repo has records and we ping it again, we should also check for commits newer than what we have
 
 Querying this data:
- ✔ Separate out the summary and raw data fetches. @done (14-06-11 15:05)
+ ✔ Match the Baloo Schema @done (14-06-11 15:19)
  ☐ Turn gitribution into a scraper that formats info for Baloo.
+ ☐ Limit how far back this fetchs
+ ☐ Build in version that gets more recent data too
  ☐ Fetch only needs to get the numbers up to current when iterating through the weekly dates
  ☐ Add a 'totals' view for beside the graph (can just use the current total for now)
  ☐ Move to mozilla org
@@ -14,6 +16,7 @@ Querying this data:
 
 ＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿
 Archive:
+ ✔ Separate out the summary and raw data fetches. @done (14-06-11 15:05) @project(Querying this data)
  ✔ Take caching off the query, and onto the lookup @done (14-06-10 09:23) @project(Querying this data)
  ✔ Periodically run the query, save the results to the DB for all teams, load this @done (14-06-10 09:23) @project(Querying this data)
  ✔ Load this instead @done (14-06-10 09:23) @project(Querying this data)
