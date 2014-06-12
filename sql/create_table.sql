@@ -8,9 +8,10 @@ CREATE TABLE `activities` (
   `action_type` varchar(255) DEFAULT NULL,
   `commit_id` varchar(45) DEFAULT NULL,
   `commit_msg` text,
-  UNIQUE KEY `happened_on` (`happened_on`,`github_organization`,`github_repository`,`action_type`),
+  UNIQUE KEY `commit_id` (`commit_id`),
   KEY `activities_org_repo_index` (`github_organization`,`github_repository`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
 
 
 
