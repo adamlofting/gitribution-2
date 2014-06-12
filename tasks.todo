@@ -5,6 +5,8 @@ Testing:
 
 Querying this data:
  ✔ Build in version that gets more recent data too @done (14-06-11 15:57)
+ ✔ Get summary version working again @done (14-06-11 20:40)
+ ✔ Check APIs still work @done (14-06-11 20:40)
  ☐ Summary fetch only needs to get the numbers up to current when iterating through the weekly dates
  ☐ Add a 'totals' view for beside the graph (can just use the current total for now)
  ☐ Move to mozilla org

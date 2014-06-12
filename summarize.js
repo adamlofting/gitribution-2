@@ -17,7 +17,7 @@ if (process.argv[2]) {
 }
 
 // get the total combined numbers
-data.update2014TotalActive(team, function updatedAll (err) {
+data.summarize2014TotalActive(team, function updatedAll (err) {
   process.exit(0);
 });
 
