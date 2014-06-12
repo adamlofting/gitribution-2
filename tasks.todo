@@ -1,12 +1,8 @@
 
 Testing:
  ☐ switch 'github' npm dependency back to the main repo once my PR is merged
- ☐ If a repo has records and we ping it again, we should also check for commits newer than what we have
 
 Querying this data:
- ✔ Build in version that gets more recent data too @done (14-06-11 15:57)
- ✔ Get summary version working again @done (14-06-11 20:40)
- ✔ Check APIs still work @done (14-06-11 20:40)
  ☐ Summary fetch only needs to get the numbers up to current when iterating through the weekly dates
  ☐ Add a 'totals' view for beside the graph (can just use the current total for now)
  ☐ Move to mozilla org
@@ -15,6 +11,10 @@ Querying this data:
 
 ＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿
 Archive:
+ ✔ If a repo has records and we ping it again, we should also check for commits newer than what we have @done (14-06-12 09:15) @project(Testing)
+ ✔ Build in version that gets more recent data too @done (14-06-11 15:57) @project(Querying this data)
+ ✔ Get summary version working again @done (14-06-11 20:40) @project(Querying this data)
+ ✔ Check APIs still work @done (14-06-11 20:40) @project(Querying this data)
  ✔ Limit how far back this fetchs @done (14-06-11 15:32) @project(Querying this data)
  ✔ Turn gitribution into a scraper that formats info for Baloo. @done (14-06-11 15:26) @project(Querying this data)
  ✔ Match the Baloo Schema @done (14-06-11 15:19) @project(Querying this data)
