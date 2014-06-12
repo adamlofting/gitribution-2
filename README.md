@@ -36,5 +36,5 @@ foreman start fetch
 ```
 or
 ```
-heroku start fetch
+heroku run fetch
 ```
