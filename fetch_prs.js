@@ -5,7 +5,7 @@
  */
 
 var fetchData = require('./lib/fetch_data');
-fetchData.fetchMoreData(function fetched (err, res) {
+fetchData.fetchMorePullRequestData(function fetched (err, res) {
   process.exit(0);
 });
 

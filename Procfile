@@ -1,3 +1,4 @@
 web: node web.js
-fetch: node fetch_from_gh.js
+fetchcommits: node fetch_commits.js
+fetchprs: node fetch_prs.js
 summarize: node summarize.js
