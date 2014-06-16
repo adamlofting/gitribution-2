@@ -30,7 +30,7 @@
     "mysql": "~2.1.0",
     "newrelic": "~1.6.0",
     "async": "~0.2.10",
-    "github": "git://github.com/adamlofting/node-github.git#add-param-until",
+    "github": "git://github.com/adamlofting/node-github.git#add-param-state",
     "node-cache": "~1.0.0"
   },
   "devDependencies": {
