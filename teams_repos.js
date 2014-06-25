@@ -130,5 +130,15 @@ exports.teamsRepos = [
     'team_name':    'coding',
     'repos': [      'mozilla-b2g/gaia',
                     'mozilla/gecko-dev']
+  },
+  {
+    'moco_or_mofo': 'moco',
+    'team_name':    'sumo',
+    'repos': [      'mozilla/kitsune',
+                    'mozilla/fjord',
+                    'mozilla/elasticutils',
+                    'mozilla/standup',
+                    'mozilla/yaocho',
+                    'mozilla/osumo']
   }
 ];
