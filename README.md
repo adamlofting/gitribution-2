@@ -32,9 +32,13 @@ to_track.js
 ## Running the app:
 
 ```
-foreman start fetch
+foreman start fetchcommits
+foreman start fetchprs
+foreman start fetchissues
 ```
 or
 ```
-heroku run fetch
+heroku run fetchcommits
+heroku run fetchprs
+heroku run fetchissues
 ```
